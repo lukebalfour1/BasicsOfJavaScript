@@ -1,0 +1,14 @@
+<input id="my_input" value="Hello Udemy Students!">
+
+<div id="answer"></div>
+
+<script>
+
+    function showAnswer(val) {
+        document.getElementById('answer').innerText = val;
+    }
+
+    let my_input = document.getElementById('my_input');
+    let my_input_value = my_input.value; // update this line
+    showAnswer(my_input_value);
+</script>
